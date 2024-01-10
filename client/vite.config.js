@@ -6,6 +6,7 @@ export default defineConfig({
   base: '/',
   plugins: [vue()],
   build: {
+    outDir: '../server/client',
     sourcemap: false
   },
   server: {

@@ -1,13 +1,14 @@
-
-  {
-    "name": "stackifycapstone",
-    "version": "1.0.0",
-    "scripts": {
-      "build": "npm run setup:server",
-      "setup:app": "npm run setup:server && npm run setup:client",
-      "setup:client": "cd StackifyCapstone.client && npm i",
-      "setup:server": "cd StackifyCapstone && npm i",
-      "start": "node StackifyCapstone/index.js"
-    }
+{
+  "name": "stackifycapstone",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npm run setup:server",
+    "setup:app": "npm run setup:server && npm run setup:client",
+    "setup:client": "cd StackifyCapstone.client && npm i",
+    "setup:server": "cd StackifyCapstone && npm i",
+    "start": "node StackifyCapstone/index.js"
+  },
+  "engines": {
+    "node": "^16"
   }
-  
+}
