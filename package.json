@@ -6,7 +6,7 @@
     "setup:app": "npm run setup:server && npm run setup:client",
     "setup:client": "cd client && npm i",
     "setup:server": "cd server && npm i",
-    "start": "node StackifyCapstone/index.js"
+    "start": "node server/index.js"
   },
   "engines": {
     "node": "^16"
