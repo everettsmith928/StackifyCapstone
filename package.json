@@ -4,8 +4,8 @@
   "scripts": {
     "build": "npm run setup:server",
     "setup:app": "npm run setup:server && npm run setup:client",
-    "setup:client": "cd StackifyCapstone.client && npm i",
-    "setup:server": "cd StackifyCapstone && npm i",
+    "setup:client": "cd client && npm i",
+    "setup:server": "cd server && npm i",
     "start": "node StackifyCapstone/index.js"
   },
   "engines": {
