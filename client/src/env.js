@@ -7,5 +7,5 @@ export const domain = 'dev-r2l4kl7ifqatct23.us.auth0.com'
 export const clientId = '3ugFmbTisZI8MvM7ux0qRbSLZS8X8Zo1'
 
 export const spotifyClientId = 'f60d41d8f71b48e59709254f06a045e8'
-export const redirectUri = dev ? 'http://localhost:8080/#/application' : 'https://stackify-jch3.onrender.com/#/application'
+export const redirectUri = 'https://stackify-jch3.onrender.com/#/application'
 export const audience = 'https://tylerApi.com'
